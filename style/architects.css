@@ -180,6 +180,44 @@ footer{
   text-align: center;
   padding-top: 35px;
 }
+/* features we love */
+.features{
+  gap: 50px;
+}
+#features-section-title{
+  border-left: 3px solid rgb(255, 144, 14);
+  padding-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.feature-card{
+  padding: 10px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 15px;
+  border-radius: 8px;
+
+} 
+.feature-card-title{
+  font-size: 1rem;
+  font-weight: 600;
+  color:rgb(19, 19, 19) ;
+}
+#experience-badge{
+  padding: 42px 40px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: -80px;
+  margin-left: -40px;
+}
+#img-architect{
+  width: 100%;
+}
+#years{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 /* responsive media query */
 /* for small device */
 @media screen and (max-width:576px) {

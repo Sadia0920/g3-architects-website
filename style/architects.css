@@ -242,11 +242,15 @@ footer{
     justify-items: center;
     row-gap: 20px; 
   }
-
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
 }
 /* for medium device */
 @media screen and (min-width:576px) and (max-width:992px){
-  .teams{
+  .teams,
+  .features{
     flex-direction: column;
   }
   .quick-list-features{
@@ -257,6 +261,9 @@ footer{
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
     row-gap: 20px; 
+  }
+  #experience-badge{
+    margin: 30px auto;
   }
 
 }

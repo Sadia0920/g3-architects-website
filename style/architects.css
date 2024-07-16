@@ -111,6 +111,38 @@ main > section{
 .features-description{
   margin-bottom: 30px;
 }
+/* some facts */
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 70px;
+}
+#fact-description{
+  font-size: 0.8rem;
+  max-width: 45%;
+}
+.fact-card{
+  border: 1px solid rgb(255, 144, 14);
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact-number{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fact-name{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* responsive media query */
 /* for small device */
 @media screen and (max-width:576px) {
